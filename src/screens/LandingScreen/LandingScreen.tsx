@@ -20,7 +20,7 @@ const LandingScreen = () => {
       <Text style={styles?.counterTextStyle}>{counterValue}</Text>
       <View style={styles?.buttonSection}>
         <ButtonView
-          text={'Minus'}
+          text={'Subtract'}
           onPress={() => {
             setCounterValue(val => val - 1);
           }}
